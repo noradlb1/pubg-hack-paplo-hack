@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Algorithm.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Data.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Esp.cpp">
+      <Filter>esp</Filter>
+    </ClCompile>
+    <ClCompile Include="Aimbot.cpp">
+      <Filter>aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11.cpp">
+      <Filter>DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11Window.cpp">
+      <Filter>DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>globel</Filter>
+    </ClCompile>
+    <ClCompile Include="Driver.cpp">
+      <Filter>driver</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-docking\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-docking\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-docking\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-docking\imgui_impl_dx11.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-docking\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-docking\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-docking\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Setting.cpp">
+      <Filter>settings</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord SDK\src\connection_win.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord SDK\src\discord_register_win.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord SDK\src\discord_rpc.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord SDK\src\dllmain.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord SDK\src\rpc_connection.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord SDK\src\serialization.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord.cpp">
+      <Filter>Class</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="api\KeyAuth.hpp">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.hpp" />
+    <ClInclude Include="SimpleIni.h" />
+    <ClInclude Include="Includes.h" />
+    <ClInclude Include="Offset.h" />
+    <ClInclude Include="Algorithm.h">
+      <Filter>Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Esp.h">
+      <Filter>esp</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot.h">
+      <Filter>aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11.h">
+      <Filter>DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11Window.h">
+      <Filter>DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>globel</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="font.h">
+      <Filter>font</Filter>
+    </ClInclude>
+    <ClInclude Include="icon.h">
+      <Filter>font</Filter>
+    </ClInclude>
+    <ClInclude Include="iconcpp.h">
+      <Filter>font</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-docking\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-docking\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-docking\imgui_impl_dx11.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-docking\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-docking\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-docking\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-docking\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-docking\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Setting.h">
+      <Filter>settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="loadDrv.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h" />
+    <ClInclude Include="imguipp.h" />
+    <ClInclude Include="xCheto.hpp">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="imgaes.h" />
+    <ClInclude Include="SHBD_HK_Logo\resource.h">
+      <Filter>SHBD_HK_Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="api\Swifty.hpp">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="api\Swifty_hor.hpp">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord SDK\src\backoff.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord SDK\src\connection.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord SDK\src\msg_queue.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord SDK\src\rpc_connection.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord SDK\src\serialization.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord.h">
+      <Filter>Class</Filter>
+    </ClInclude>
+    <ClInclude Include="termcolor.hpp">
+      <Filter>Console Colour</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="api">
+      <UniqueIdentifier>{d484b9e4-8c96-4b7b-865a-766b5d662837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="esp">
+      <UniqueIdentifier>{15f45d10-2f2c-443a-b8b1-ea4d619328fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{02f31835-408d-4917-b833-57b34b669e0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm">
+      <UniqueIdentifier>{f10b896d-919f-4648-aa99-70f713a12d8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="aimbot">
+      <UniqueIdentifier>{82b1209e-90fe-497f-9ce5-2cfd843e0e28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DX11">
+      <UniqueIdentifier>{388412ac-329e-41fa-966b-4a749ee89d17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{7d365663-9a31-43fc-92e2-1d301a28d043}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="globel">
+      <UniqueIdentifier>{abb6d7f9-85fb-4597-8336-293ee54e3787}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="font">
+      <UniqueIdentifier>{3e999437-b5d2-4fc5-bbe9-9eacc925906b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver">
+      <UniqueIdentifier>{450d267f-8b9d-45f4-93d2-4e528fceeb3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="settings">
+      <UniqueIdentifier>{4faa187c-7da8-482e-a6c1-6387b895a15c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memory">
+      <UniqueIdentifier>{29a10e40-2633-4921-979d-9650e85eaf74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility">
+      <UniqueIdentifier>{accf3075-5db6-4311-9920-ed46b33203a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SHBD_HK_Logo">
+      <UniqueIdentifier>{e0a3332b-5a87-49c9-a597-6d7f6d988943}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{733fc717-1261-4340-8902-012b8e54235c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class">
+      <UniqueIdentifier>{e546fa34-441b-4cb2-82ae-d555334bf584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Console Colour">
+      <UniqueIdentifier>{02b71baa-8622-49a2-aca1-1f4f9bcf8dde}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SHBD_HK_Logo\OMAR_HK_CP.rc">
+      <Filter>SHBD_HK_Logo</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="SHBD_HK_Logo\shbdhklogo.ico">
+      <Filter>SHBD_HK_Logo</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
